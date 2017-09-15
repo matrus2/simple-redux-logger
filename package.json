@@ -8,6 +8,10 @@
     "publish:minor": "npm version minor && npm publish",
     "publish:major": "npm version major && npm publish"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:matrus2/webpack-s3-uploader.git"
+  },
   "keywords": [],
   "author": "Bogusz Przybyslawski",
   "homepage": "https://github.com/matrus2/simple-redux-logger",
