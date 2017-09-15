@@ -1,0 +1,13 @@
+{
+  "name": "simple-redux-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bogusz Przybyslawski",
+  "homepage": "https://github.com/matrus2/simple-redux-logger",
+  "license": "MIT"
+}
