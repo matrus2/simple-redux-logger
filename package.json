@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:matrus2/webpack-s3-uploader.git"
+    "url": "git@github.com:matrus2/simple-redux-logger.git"
   },
   "keywords": [],
   "author": "Bogusz Przybyslawski",
