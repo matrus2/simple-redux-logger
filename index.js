@@ -4,7 +4,7 @@ const defaultOptions = {
 };
 
 
-const createLogger = (options = {}) => ({ getState, options = {} }) => next => (action) => {
+const createLogger = (options = {}) => ({ getState }) => next => action => {
   let result;
   options = Object.assign({}, defaultOptions, options);
   if (typeof window !== 'undefined' && options.doLogClient) {

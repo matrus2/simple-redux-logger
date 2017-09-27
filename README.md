@@ -25,18 +25,14 @@ export default function (initialState = {}) {
 
 #### Options
 
-  **`doStringify`** - it is for server logging to show entire state. Default is _true_ .If you would like to shrink the output set to _false_ 
-  
-  **`doLogClient`** - default _false_, if you don't use `redux-devtools-extension` for chrome you can set this options to _true_
+  `doStringify` - show entire state on server. Default is _true_ .If you would like to shrink the output set to _false_.  
+  `doLogClient` - in case of using `redux-devtools-extension`, default _false_.   
 
-######Usage with options:
-
+Usage with options:  
 ```javascript
     middlewares.push(logger({ doStringify: false }));
-
 ```
 
-
-####License
+### License
 
 MIT

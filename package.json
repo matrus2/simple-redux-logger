@@ -15,5 +15,6 @@
   "keywords": [],
   "author": "Bogusz Przybyslawski",
   "homepage": "https://github.com/matrus2/simple-redux-logger",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
