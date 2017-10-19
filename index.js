@@ -20,6 +20,8 @@ const createLogger = (options = {}) => ({ getState }) => next => action => {
     } else {
       console.log('\x1b[37m', newState, '\x1b[0m:');
     }
+  } else {
+    result = next(action);
   }
   return result;
 };
